@@ -27,7 +27,11 @@ function haversine(lat1::Real, lon1::Real, lat2::Real, lon2::Real, unit::Distanc
     a = sin(Δφ / 2)^2 + cos(φ1) * cos(φ2) * sin(Δλ / 2)^2
     c = 2 * atan(sqrt(a), sqrt(1 - a))
 
-    return get_radius(unit) * c
+    # calculate the result
+    result = get_radius(unit) * c
+    
+    # format the result to rounding to 3 decimal places
+    return result
 end
 
 # Default to Kilometers

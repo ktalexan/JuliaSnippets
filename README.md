@@ -15,7 +15,7 @@
 
 This repository contains a collection of Julia code snippets designed to assist developers in writing efficient and effective Julia code. The snippets cover a wide range of topics, from basic syntax to advanced programming techniques.
 
-The Strucuture of the Repository is as follows:
+The strucuture of the repository is as follows:
 
 ```text
 JuliaSnippets/
@@ -30,6 +30,12 @@ JuliaSnippets/
         └── test_haversine.jl  # Specific tests for the snippet
 ```
 
-## ✨ List of Snippets
+## ✨ List of Folders and Snippets
 
-- **📄 haversine.jl**: It provides a Julia code snippet to calculate the Haversine distance between two geographic coordinates (latitude and longitude) on the Earth's surface.
+- 🏷️ **Project.toml**: This root file file represents configuration data (Tagged Object Metadata Language)
+- 📁 **src/**: This folder contains the main JuliaSnippets module and all the code snippets organized in subfolders.
+  - 📂 **snippets/**: This subfolder contains individual Julia code snippets.
+    - **📄 haversine.jl**: It provides a Julia code snippet to calculate the Haversine distance between two geographic coordinates (latitude and longitude) on the Earth's surface.
+- 📁 **test/**: This folder contains the main test module and all the test snippeds organized in subfolders.
+  - 📂 **snippets/**: This subfolder mirrors the structure of the `src/snippets/` folder and contains test files for each code snippet.
+    - **📄 test_haversine.jl**: It contains tests for the Haversine distance calculation snippet.
