@@ -5,8 +5,8 @@
 
 **👤 Kostas Alexandridis, PhD, GISP** | *🏷️ v. 2025.4, November 2025*
 
-![Static Badge](https://img.shields.io/badge/juliasnippets-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
-![GitHub License](https://img.shields.io/github/license/ktalexan/julia-snippets?style=plastic&labelcolor=black) 
+![Static Badge](https://img.shields.io/badge/julia%2Dsnippets-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
+![GitHub License](https://img.shields.io/github/license/ktalexan/julia%2Dsnippets?style=plastic&labelcolor=black) 
 ![Shield Badge: Language-Julia](https://img.shields.io/static/v1?style=plastic&label=language&message=Julia&logo=julia&color=purple&labelColor=black) 
 
 </div>
